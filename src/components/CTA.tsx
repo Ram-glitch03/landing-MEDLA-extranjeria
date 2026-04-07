@@ -368,7 +368,7 @@ export default function CTA() {
             </span>
           </h2>
           <a
-            href="#contact"
+            href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
             className="mt-6 inline-flex items-center gap-2 rounded-full bg-brand-accent px-5 py-2 text-sm font-semibold text-brand-dark transition hover:bg-brand-accent/90"
           >
             Agenda tu cita <ArrowRight className="h-4 w-4" />

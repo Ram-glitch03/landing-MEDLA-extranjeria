@@ -60,7 +60,7 @@ export default function Hero() {
               className="flex flex-col sm:flex-row gap-4"
             >
               <a
-                href="#contact"
+                href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
                 className="inline-block bg-brand-accent text-brand-dark px-8 py-4 rounded-xl text-lg font-semibold hover:bg-yellow-500 hover:shadow-lg transition-all duration-300"
               >
                 Evaluación inicial gratuita
