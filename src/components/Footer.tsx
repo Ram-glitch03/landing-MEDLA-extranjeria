@@ -38,7 +38,7 @@ export default function Footer() {
               <li><a href="#about" className="text-brand-text/60 hover:text-brand-text transition-colors">Nosotros</a></li>
               <li><a href="#services" className="text-brand-text/60 hover:text-brand-text transition-colors">Servicios</a></li>
               <li><a href="#blog" className="text-brand-text/60 hover:text-brand-text transition-colors">Blog</a></li>
-              <li><a href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer" className="text-brand-text/60 hover:text-brand-text transition-colors">Contacto</a></li>
+              <li><a href="#contact" className="text-brand-text/60 hover:text-brand-text transition-colors">Contacto</a></li>
             </ul>
           </div>
 

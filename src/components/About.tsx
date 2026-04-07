@@ -132,7 +132,7 @@ export default function About() {
               className="pt-4"
             >
               <a
-                href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
+                href="#contact"
                 className="inline-flex items-center gap-2 bg-brand-muted text-brand-text px-6 py-3 rounded-xl font-semibold hover:bg-brand-border transition-colors"
               >
                 Conoce más sobre MEDLA

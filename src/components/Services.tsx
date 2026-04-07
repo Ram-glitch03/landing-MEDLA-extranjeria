@@ -103,7 +103,7 @@ export default function Services() {
             </p>
           </div>
           <a
-            href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
+            href="#contact"
             className="whitespace-nowrap bg-brand-accent text-brand-text px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-opacity"
           >
             Contáctanos

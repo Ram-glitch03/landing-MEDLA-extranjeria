@@ -38,7 +38,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
+              href="#contact"
               className="bg-brand-muted px-4 py-2 rounded-xl text-sm font-medium hover:bg-brand-border transition-colors"
             >
               Agenda tu cita
@@ -75,7 +75,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://medla-asesores.com/agenda-tu-cita/" target="_blank" rel="noopener noreferrer"
+            href="#contact"
             className="block w-full text-center bg-brand-muted py-3 rounded-xl text-lg font-semibold"
             onClick={() => setIsOpen(false)}
           >

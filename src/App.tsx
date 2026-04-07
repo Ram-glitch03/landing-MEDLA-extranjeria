@@ -7,7 +7,7 @@ import Services from "./components/Services";
 import Testimonials from "./components/Testimonials";
 import Blog from "./components/Blog";
 import CTA from "./components/CTA";
-import Footer from "./components/Footer";
+import Contact from "./components/Contact";\nimport Footer from "./components/Footer";
 
 export default function App() {
   return (
@@ -23,7 +23,7 @@ export default function App() {
         <Blog />
         <CTA />
       </main>
-      <Footer />
+      <Contact />\n      <Footer />
     </div>
   );
 }
