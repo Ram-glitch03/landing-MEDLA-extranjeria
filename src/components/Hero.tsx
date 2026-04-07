@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-7xl font-display font-bold text-brand-text leading-[1.1] mb-6">
-              {"Tu mejor aliado en extranjería y migración".split(" ").map((word, i) => (
+              {"Trámites de extranjería en España, sin complicaciones ni demoras".split(" ").map((word, i) => (
                 <motion.span
                   key={i}
                   initial={{ opacity: 0, filter: "blur(10px)", y: 10 }}
@@ -37,7 +37,7 @@ export default function Hero() {
               ))}
             </h1>
             <p className="text-xl text-brand-text/80 mb-10 leading-relaxed">
-              {"En MEDLA, cada persona que cruza nuestra puerta es importante. Acompañamiento integral y personalizado en cada trámite migratorio.".split(" ").map((word, i) => (
+              {"Expertos en visados, nacionalidad y permisos de residencia. Gestionamos tu caso con el máximo rigor legal para que obtengas una resolución favorable.".split(" ").map((word, i) => (
                 <motion.span
                   key={i}
                   initial={{ opacity: 0, filter: "blur(10px)", y: 10 }}
@@ -57,12 +57,19 @@ export default function Hero() {
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5, delay: 1.5 }}
+              className="flex flex-col sm:flex-row gap-4"
             >
               <a
                 href="#contact"
-                className="inline-block bg-brand-accent text-brand-dark px-8 py-4 rounded-xl text-lg font-semibold hover:opacity-90 transition-opacity"
+                className="inline-block bg-brand-accent text-brand-dark px-8 py-4 rounded-xl text-lg font-semibold hover:bg-yellow-500 hover:shadow-lg transition-all duration-300"
               >
-                Agenda tu cita
+                Evaluación inicial gratuita
+              </a>
+              <a
+                href="#services"
+                className="inline-block bg-transparent text-brand-text border border-brand-text/20 px-8 py-4 rounded-xl text-lg font-semibold hover:bg-brand-text/5 transition-all duration-300"
+              >
+                Nuestros servicios
               </a>
             </motion.div>
           </div>

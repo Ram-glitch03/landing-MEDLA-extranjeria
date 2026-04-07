@@ -360,13 +360,11 @@ export default function CTA() {
     <section className="relative w-full mx-auto overflow-hidden rounded-3xl bg-brand-dark border border-brand-border shadow-md px-6 py-16 md:px-16 md:py-24 mt-24 mb-24 max-w-7xl">
       <div className="flex flex-col-reverse items-center justify-between gap-10 md:flex-row">
         <div className="z-10 max-w-xl text-left">
-          <h2 className="text-3xl font-normal text-brand-bg">
-            Construye tu futuro con{" "}
-            <span className="text-brand-accent">MEDLA Asesores</span>{" "}
-            <span className="block mt-4 text-brand-bg/60">
-              Soluciones. Confianza. Resultados. Acompañamos cada paso de tu
-              proceso migratorio con transparencia, eficiencia y compromiso
-              personalizado.
+          <h2 className="text-3xl md:text-5xl font-display font-bold text-brand-bg leading-tight">
+            Empieza tu nueva vida en España <br />
+            <span className="text-brand-accent italic">hoy mismo</span>
+            <span className="block mt-6 text-xl font-sans font-normal text-brand-bg/80 leading-relaxed max-w-lg">
+              No dejes tu futuro al azar ni te enfrentes a la burocracia sin apoyo. Obtén la tranquilidad legal que necesitas con el respaldo de nuestros abogados expertos en la ley de extranjería y consigue una resolución exitosa garantizada.
             </span>
           </h2>
           <a
