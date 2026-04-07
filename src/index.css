@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Playfair Display", serif;
+
+  --color-brand-bg: #F5F3EF;
+  --color-brand-bg-secondary: #ECEAE4;
+  --color-brand-text: #1A1A2E;
+  --color-brand-accent: #C9A84C;
+  --color-brand-border: #D5D3CD;
+  --color-brand-border-secondary: #C8C5BD;
+  --color-brand-muted: #E4E2DC;
+  --color-brand-dark: #1A1A2E;
+}
+
+@layer base {
+  body {
+    @apply bg-brand-bg text-brand-text font-sans antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold tracking-tight;
+  }
+}
+
+.glass {
+  @apply backdrop-blur-md bg-brand-bg/30;
+}
